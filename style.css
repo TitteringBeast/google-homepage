@@ -1,0 +1,34 @@
+body {
+  display: block;
+}
+
+#main {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+#logo-container {
+  max-height: 240px;
+  max-width: 50%;
+  margin: 89px auto 0px;
+}
+
+#logo {
+  display: block;
+  margin: auto;
+}
+
+.search {
+  border: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+}
+
+#search-box {
+  border: 1px solid;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  margin: 20px 15px 10px;
+}
