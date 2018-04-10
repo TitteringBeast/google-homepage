@@ -1,16 +1,22 @@
-body {
+html, body {
+  height: 100%;
+  width: 100%;
   display: block;
 }
 
 #main {
+
+}
+
+#content {
   margin: 0 auto;
-  max-width: 50%;
+  max-width: 30%;
 }
 
 #logo-container {
   max-height: 240px;
   max-width: 50%;
-  margin: 89px auto 0px;
+  margin: 100px auto 0px;
 }
 
 #logo {
@@ -27,8 +33,23 @@ body {
 
 #search-box {
   border: 1px solid;
+  border-color: #EEE;
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   margin: 20px 15px 10px;
+  padding: 10px 14px;
+}
+
+#buttons {
+  max-height: 42px;
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  border: none;
+  background-color: #EEE;
+  margin: 5px 4px auto 4px;
+  padding: 10px 15px;
 }

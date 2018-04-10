@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Google</title>
+    <meta charset="utf-8">
     <!--shortcut icon doesn't work-->
     <link src="/images/branding/product/ico/googleg_lodp.ico" rel="shortcut icon">
     <link href="reset.css" rel="stylesheet">
@@ -9,14 +10,20 @@
   </head>
   <body>
     <div id="main">
-      <div id="logo-container">
-        <img id="logo" src="https://www.google.co.uk/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+      <div id="content">
+        <div id="logo-container">
+          <img id="logo" src="https://www.google.co.uk/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google">
+        </div>
+        <div id="search-box">
+          <form name="search-form" method="GET" action="" class="search">
+            <input type="search" class="search">
+          </form>
+        </div>
       </div>
-      <div id="search-box">
-        <form name="search-form" method="GET" action="" class="search">
-          <input type="search" class="search">
-        </form>
+      <div id="buttons">
+        <input type="button" value="Google Search" class="button">
+        <input type="button" value="I'm Feeling Lucky"  class="button">
       </div>
-    </div>
+      </div>
   </body>
 </html>
