@@ -2,6 +2,7 @@ html, body {
   height: 100%;
   width: 100%;
   display: block;
+  font: 14px/16px sans-serif;
 }
 
 #main {
@@ -44,6 +45,7 @@ html, body {
 #buttons {
   max-height: 42px;
   margin: 0 auto;
+  max-width: 300px;
 }
 
 .button {
@@ -52,4 +54,45 @@ html, body {
   background-color: #EEE;
   margin: 5px 4px auto 4px;
   padding: 10px 15px;
+}
+
+#nav-container {
+  position: relative;
+  height: 22px;
+  left: 830px;
+  bottom: 300px;
+}
+
+.nav {
+  float: left;
+}
+
+.nav:hover {
+  text-decoration: underline;
+}
+.sign-in {
+  float: left;
+  margin-top: 0;
+}
+
+nav {
+  position: absolute;
+  width: inherit;
+  margin-top: 6px;
+}
+
+li {
+  margin: 8px 4px;
+}
+
+#sign-in {
+  background-color: #3b75cb;
+  font-weight: bold;
+  color: #FFF;
+  margin-top: 2px;
+  padding: 6px 8px;
+  border: none;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
 }
