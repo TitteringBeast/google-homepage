@@ -4,6 +4,7 @@ html, body {
   display: block;
   font: 14px/16px sans-serif;
   color: #777;
+  overflow: hidden;
 }
 
 #main {
