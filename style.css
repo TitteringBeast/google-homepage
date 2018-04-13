@@ -3,10 +3,10 @@ html, body {
   width: 100%;
   display: block;
   font: 14px/16px sans-serif;
+  color: #777;
 }
 
 #main {
-
 }
 
 #content {
@@ -30,6 +30,7 @@ html, body {
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
+  width: 100%;
 }
 
 #search-box {
@@ -50,10 +51,22 @@ html, body {
 
 .button {
   display: inline-block;
-  border: none;
+  border: solid #EEE 1px;
   background-color: #EEE;
   margin: 5px 4px auto 4px;
   padding: 10px 15px;
+  color: #888;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.button:hover {
+  border: solid #DDD 1px;
+  background-color: #F3F3F3;
+  color: #555;
+  border-radius: 1px;
+  -moz-border-radius: 1px;
+  -webkit-border-radius: 1px;
 }
 
 #nav-container {
@@ -69,7 +82,24 @@ html, body {
 
 .nav:hover {
   text-decoration: underline;
+  cursor: pointer;
+  color: #444;
 }
+
+.nav-bl {
+  float: left;
+}
+
+.nav-bl:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #444;
+}
+
+#nav-bl-filler {
+  margin-left: 1486px;
+}
+
 .sign-in {
   float: left;
   margin-top: 0;
@@ -82,7 +112,7 @@ nav {
 }
 
 li {
-  margin: 8px 4px;
+  margin: 8px 6px;
 }
 
 #sign-in {
@@ -95,4 +125,24 @@ li {
   border-radius: 2px;
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
+  cursor: pointer;
+}
+
+#footer-container {
+  width: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 30px;
+  width: 100%;
+  background-color: #DDD;
+  border-top: solid #BBB 1px;
+  border-bottom: solid #DDD;
+  font-size: 12px;
+}
+
+#footer-filler {
+  width: 70%;
 }
