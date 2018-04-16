@@ -10,6 +10,11 @@ html, body {
 #main {
 }
 
+.floatl
+{
+  float: left;
+}
+
 #content {
   margin: 0 auto;
   max-width: 30%;
@@ -17,13 +22,20 @@ html, body {
 
 #logo-container {
   max-height: 240px;
-  max-width: 50%;
+  max-width: 200px;
   margin: 100px auto 0px;
 }
 
+#logo-container-sp {
+  display: block;
+  max-height: 100px;
+  max-width: 150px;
+  margin: auto 40px auto 20px;
+}
 #logo {
   display: block;
   margin: auto;
+  max-width: inherit;
 }
 
 .search {
@@ -36,12 +48,18 @@ html, body {
 
 #search-box {
   border: 1px solid;
+  background-color: #FFF;
   border-color: #EEE;
-  border-radius: 0;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
   margin: 20px 15px 10px;
   padding: 10px 14px;
+  box-shadow: 3px 3px 3px #CCC;
+}
+
+#header #search-box {
+  margin: 4px 15px 10px;
 }
 
 #buttons {
@@ -75,6 +93,13 @@ html, body {
   height: 22px;
   left: 830px;
   bottom: 300px;
+  margin-top: 5%;
+}
+
+#nav-container-sp {
+  position: relative;
+  height: 22px;
+  left: 94%;
 }
 
 .nav {
@@ -127,6 +152,20 @@ li {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   cursor: pointer;
+}
+
+header {
+  position: relative;
+  height: 10%;
+  max-height: 10%;
+  width: 100%;
+  clear: both;
+  line-height: 10%;
+  background-color: #EEE;
+  border-top: solid #EEE 1px;
+  border-bottom: solid #DDD 1px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 
 #footer-container {
