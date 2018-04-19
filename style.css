@@ -30,7 +30,7 @@ html, body {
   display: block;
   max-height: 100px;
   max-width: 150px;
-  margin: auto 40px auto 20px;
+  margin: 12px 40px auto 20px;
 }
 #logo {
   display: block;
@@ -59,7 +59,23 @@ html, body {
 }
 
 #header #search-box {
-  margin: 4px 15px 10px;
+  margin: 16px 15px 10px;
+  width: 400px;
+}
+
+#search-type {
+  height: 42px;
+  margin: 60px auto 0 224px;
+  font-size: 12px;
+  position: relative;
+}
+
+#active {
+  position: absolute;
+  height: 4px;
+  left: 6px;
+  bottom: 0;
+  width: 14px;
 }
 
 #buttons {
@@ -122,8 +138,29 @@ html, body {
   color: #444;
 }
 
+.nav-sp {
+  float:left;
+}
+
+.nav-sp:hover {
+  cursor: pointer;
+  color: #444;
+}
+
+#active-selection {
+  color: rgb(0,148,255);
+}
+
+#active-selection:hover{
+  text-decoration: none;
+}
+
 #nav-bl-filler {
   margin-left: 1486px;
+}
+
+#mleft {
+  margin-left: 60px;
 }
 
 .sign-in {
@@ -139,6 +176,7 @@ nav {
 
 li {
   margin: 8px 6px;
+  position: relative;
 }
 
 #sign-in {
@@ -156,13 +194,13 @@ li {
 
 header {
   position: relative;
-  height: 10%;
-  max-height: 10%;
+  height: 120px;
+  max-height: 120px;
   width: 100%;
   clear: both;
   line-height: 10%;
-  background-color: #EEE;
-  border-top: solid #EEE 1px;
+  background-color: #F6F6F6;
+  border-top: solid #F6F6F6 1px;
   border-bottom: solid #DDD 1px;
   padding-top: 4px;
   padding-bottom: 4px;
